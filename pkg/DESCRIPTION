@@ -1,0 +1,14 @@
+Package: rqpd
+Type: Package
+Title: Regression Quantiles for Panel Data
+Version: 0.5
+Date: 2011-04-12
+Author: Roger Koenker [aut], Stefan Holst Bache [aut]
+Author@R: c(person(given="Stefan Holst", family="Bache", email="rqpd@stefanbache.dk"), person(given="Roger", family="Koenker", email="rkoenker@uiuc.edu"))
+Maintainer: Stefan Bache <rqpd@stefanbache.dk>
+Description: Estimate fixed-effects and correlated-random-effects quantile regression models.
+Depends: R (>= 2.6), stats, quantreg (>= 4.65), SparseM (>= 0.89), MatrixModels, Formula
+License: GPL (version 2 or later)
+URL: http://r-project.org
+LazyLoad: yes
+LazyData: yes
