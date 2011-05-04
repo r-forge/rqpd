@@ -5,6 +5,7 @@
 \description{
   description to come...
 }
+\usage{data(Maddison)}
 \format{A dataframe with XX observations and XX variables}
 \source{http://some.url/}
 \references{
