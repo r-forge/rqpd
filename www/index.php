@@ -77,6 +77,7 @@ echo $contents; }
   heterogenous panel. <a href="http://econ.au.dk/fileadmin/site_files/filer_oekonomi/Working_Papers/CREATES/2008/rp08_20.pdf">Working paper.</a>
   </li> 
 </ol>
+<img alt="gfx" src="13_numbers.jpg" />
 </div>
 
 
