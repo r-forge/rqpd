@@ -2,16 +2,19 @@
 \alias{rqpd-package}
 \docType{package}
 \title{
-  Quantile Regression for Longitudinal (Panel) Data.
+  Regression quantiles for panel data (longitudinal data)
 }
 \description{
-  This package provides estimation routines for longitudinal Data.
-  It is possible to specify a penalized fixed-effects model 
-  (Koenker, 2004) or a correlated-random-effects type model.
+  The \code{rqpd} package provides quantile regression 
+  estimation routines and bootstrap inference for panel 
+  (longitudinal) data.
+  Currently, the available estimation methods are the 
+  penalized fixed-effects model (Koenker, 2004) and a 
+  correlated-random-effects type model.
   (Abrevaya and Dahl, 2008; Bache et al. 2011).}
 \details{
-\tabular{ll}{
-Package: \tab rqpd\cr
+\tabular{ll}{%
+Package: \tab rqpd\cr%
 Type: \tab Package\cr
 Version: \tab 0.5\cr
 Date: \tab 2011-04-26\cr
