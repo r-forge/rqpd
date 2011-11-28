@@ -154,7 +154,7 @@ function(X, Z, y, taus, tauw, lambda, control, ...)
     n <- ncol(Z) 
     K <- length(taus)
       
-    y <- tauw %x% y 
+    y <- c(tauw %x% y)
     D <- cbind(as(tauw, "matrix.diag.csr") %x% X, tauw %x% Z)
     rhs <- c((tauw*(1 - taus)) %x% (t(X)%*%rep(1, N)),
         sum(tauw*(1 - taus)) * (t(Z) %*% rep(1, N)))
