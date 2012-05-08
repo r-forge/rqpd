@@ -155,7 +155,7 @@ function(X, Z, y, taus, tauw, lambda, control, ...)
     K <- length(taus)
       
     y <- c(tauw %x% y)
-    D <- cbind(as(tauw, "matrix.diag.csr") %x% X, tauw %x% Z)
+    D <- cbind(as(tauw, "matrix.diag.csr") %x% X, cbind(tauw) %x% Z)
     rhs <- c((tauw*(1 - taus)) %x% (t(X)%*%rep(1, N)),
         sum(tauw*(1 - taus)) * (t(Z) %*% rep(1, N)))
     if (lambda > 0) {
