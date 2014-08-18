@@ -9,6 +9,7 @@ import(
   stats,
   quantreg,
   SparseM,
+  Matrix,
   MatrixModels,
   Formula
 )
